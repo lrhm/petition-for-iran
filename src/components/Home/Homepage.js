@@ -130,8 +130,8 @@ export default function HomePage() {
                                 <li className="social-icons">
                                     <FacebookShareButton
                                         url={"https://petition-for-iran.vercel.app/"}
-                                        quote={"Please help Iranians in their fight by filling a petition. Woman Life Freedom shall prevail."}
-                                        title={"Please share and raise awareness. Iranians are dying for their freedom over two months and the media ignores the dire situation. Help them by filling a petition."}
+                                        quote={"Please help Iranians in their fight by filling out a petition. Woman Life Freedom shall prevail"}
+                                        title={"Please share and help Iranians in their fight for freedom and equality. You can help them win by filling out a petition:"}
                                         hashtag="iranianscholarsforliberty"
 
                                     >
@@ -145,9 +145,9 @@ export default function HomePage() {
 
                                     <TwitterShareButton
                                         url={"https://petition-for-iran.vercel.app/"}
-                                        quote={"Please help Iranians in their fight by filling a petition. Woman Life Freedom shall prevail."}
-                                        title={"Please share and help Iranian's in their fight for freedom and equality. You can help them win by filling a petition:"}
-                                        hashtag="#iran #iranianscholarsforliberty #mahsa_amini"
+                                        quote={"Please help Iranians in their fight by filling out a petition. Woman Life Freedom shall prevail"}
+                                        title={"Please share and help Iranians in their fight for freedom and equality. You can help them win by filling out a petition:"}
+                                        hashtag="#mahsa_amini"
                                     >
                                         <TwitterIcon round="true" />
                                     </TwitterShareButton>
@@ -155,9 +155,9 @@ export default function HomePage() {
                                 <li className="social-icons">
                                     <LinkedinShareButton
                                         url={"https://petition-for-iran.vercel.app/"}
-                                        quote={"Please help Iranians in their fight for liberty by filling a petition. Woman Life Freedom shall prevail."}
-                                        title={"Please share and help Iranian's in their fight for freedom and equality. You can help them win by filling a petition:"}
-                                        hashtag="#iran #iranianscholarsforliberty #mahsa_amini"
+                                        quote={"Please help Iranians in their fight by filling out a petition. Woman Life Freedom shall prevail"}
+                                        title={"Please share and help Iranians in their fight for freedom and equality. You can help them win by filling out a petition:"}
+                                        hashtag="#mahsa_amini"
                                     >
                                         <LinkedinIcon round="true" />
                                     </LinkedinShareButton>
@@ -168,9 +168,9 @@ export default function HomePage() {
                                     <RedditShareButton
 
                                         url={"https://petition-for-iran.vercel.app/"}
-                                        quote={"Please help Iranians in their fight by filling a petition. Woman Life Freedom shall prevail. "}
-                                        title={"Please share and help Iranian's in their fight for freedom and equality. You can help them win by filling a petition:"}
-                                        hashtag="#iran #iranianscholarsforliberty #mahsa_amini"
+                                        quote={"Please help Iranians in their fight by filling out a petition. Woman Life Freedom shall prevail"}
+                                        title={"Please share and help Iranians in their fight for freedom and equality. You can help them win by filling out a petition:"}
+                                        hashtag="#mahsa_amini"
                                     >
                                         <RedditIcon round="true" />
                                     </RedditShareButton>
