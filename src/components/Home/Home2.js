@@ -33,12 +33,12 @@ function Home2() {
               <br />
               <br />
 
-              We are fighting against systematic oppression to <b className="purple">minorities and women</b>.
+              We are fighting against systematic oppression of <b className="purple">minorities and women</b>.
               <br />
               <br />
 
 
-              We are fighting for children's rights and their future. Legal age of marriage is 13 under the Islamic law.
+              We are fighting for children's lives and their future. The legal age of marriage is 13 under Islamic law and we fight to change.
               <br />
               <br />
 

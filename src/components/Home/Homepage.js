@@ -47,19 +47,19 @@ export default function HomePage() {
         buttonText: "Please make a difference",
     }, {
         title: "Sign Iranian Scholars for Liberty Statement",
-        url: "https://www.change.org/p/iranian-scholars-for-liberty-sign-isl-statement",
-        buttonText: "Please click here",
+        url: "https://www.iranianscholarsforliberty.com/how-we-can-help/statement",
+        buttonText: "Please sign, later the revolution happens more people will die",
     },
 
     {
-        title: "Stop the executions of Protestors in Iran",
+        title: "Stop The Executions of Protestors in Iran",
         url: "https://www.change.org/p/very-urgent-stop-execution-of-protestors-in-iran",
         buttonText: "Please help saving lives",
     },
     {
         title: "Help children in Iran",
         url: "https://www.change.org/p/iranian-regime-violent-targeting-of-children-and-adolescents",
-        buttonText: "Please help children",
+        buttonText: "Please help children are being killed by bullets",
     },
     {
         title: " Free Iranian protest rapper Toomaj Salehi",
@@ -76,10 +76,10 @@ export default function HomePage() {
 
     return (
         <div>
-            <Particle />
 
 
             <Container fluid className="home-section" id="home"  >
+            <Particle />
 
                 <Container className="home-content">
 
