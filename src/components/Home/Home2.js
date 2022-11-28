@@ -31,7 +31,7 @@ function Home2() {
               <br />
 
 
-              We are fighting against a regime that is killing, torturing, and imprisoning its own people and has killed over 10,000 people in the last 40 years.
+              We are fighting against them until they are <b className="purple"> defeated.</b> We are fighting for <b className="purple"> freedom.</b> We don't <b className="purple">compromise</b>
               <br />
               <br />
               
