@@ -31,18 +31,18 @@ function Home2() {
               <br />
 
 
-              We are fighting against a regime that is <b className="purple"> killing, torturing, and imprisoning </b> its own people and has killed over 10,000 people in the last 40 years.
+              We are fighting against a regime that is killing, torturing, and imprisoning its own people and has killed over 10,000 people in the last 40 years.
               <br />
               <br />
               
 
-              We are fighting against child abuse, and child marriage. The age of marriage in islamic republic's law is <b className="purple">13</b> for girls.
+              We are fighting for children's rights, against abuse, and child marriage. The age of marriage under the islamic law is <b className="purple">13</b>.
               <br />
               <br />
 
 
 
-              We are asking for your help to <b className="purple"> spread the word </b> and <b className="purple"> sign our petition </b> to help the Iranian people.
+              We are asking for your help to <b className="purple"> spread the word </b> and <b className="purple"> sign our petition </b> to help us.
               <br />
               <br />
              
@@ -50,8 +50,9 @@ function Home2() {
               <br />
               <br />
 
-              We stand with <b className="purple">Iranians </b> and <b className ="purple">Ukranians</b> in fighting for <b className="purple">Liberty</b>.
-              The great people of <b className="purple">Ukraine</b> have a <b className="purple">army</b> to defend themselves against facism. We, the people of <b className="purple">Iran</b> have only <b className="purple">you and </b><b className="purple">us</b> to defend ourselves.
+              We stand with <b className ="purple">Ukranians</b> in fighting for <b className="purple">Liberty</b>.
+              The great people of <b className="purple">Ukraine</b> have a <b className="purple">army</b> to defend themselves.
+              We, the people of <b className="purple">Iran</b> have only <b className="purple">each other</b> to defend ourselves. 
               
             </p>
           </Col>
@@ -67,7 +68,7 @@ function Home2() {
             <a href="iranianscholarsforliberty.com" className="purple">Iranian Scholars for Liberty</a> is a group of Iranian scholars who are fighting for the freedom of Iran.
 
             </p>
-            <ul className="home-about-social-links">
+            {/* <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
                   href="https://github.com/soumyajit4419"
@@ -108,7 +109,7 @@ function Home2() {
                   <AiFillInstagram />
                 </a>
               </li>
-            </ul>
+            </ul> */}
           </Col>
         </Row>
       </Container>

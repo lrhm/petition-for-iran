@@ -1,5 +1,32 @@
 
 import {
+    EmailShareButton,
+    FacebookIcon,
+    FacebookShareButton,
+    HatenaShareButton,
+    InstapaperIcon,
+    InstapaperShareButton,
+    LineShareButton,
+    LinkedinIcon,
+    LinkedinShareButton,
+    LivejournalShareButton,
+    MailruShareButton,
+    OKShareButton,
+    PinterestShareButton,
+    PocketShareButton,
+    RedditIcon,
+    RedditShareButton,
+    TelegramShareButton,
+    TumblrShareButton,
+    TwitterIcon,
+    TwitterShareButton,
+    ViberShareButton,
+    VKShareButton,
+    WhatsappShareButton,
+    WorkplaceShareButton
+} from "react-share";
+
+import {
     AiFillGithub,
     AiOutlineTwitter,
     AiFillInstagram,
@@ -43,12 +70,9 @@ export default function HomePage() {
                                 <Type />
                             </div>
 
-                            <div style={{ paddingTop: 20 }}>
-                                {/* a button div that says iranian scholars for liberty petition */}
+                            <div style={{ paddingTop: 20 }} className="sheading">
 
-                                <div className="heading">It's just a few clicks
-
-                                </div>
+                                With <b className="purple"> only a few </b> clicks
 
 
 
@@ -104,45 +128,55 @@ export default function HomePage() {
                             <ul style={{ paddingTop: 10 }}  >
 
                                 <li className="social-icons">
-                                    <a
-                                        href="https://github.com/soumyajit4419"
-                                        target="_blank"
-                                        rel="noreferrer"
-                                        className="icon-colour  home-social-icons"
+                                    <FacebookShareButton
+                                        url={"https://www.iranianscholarsforliberty.com/"}
+                                        quote={"Please help"}
+                                        title={"Please help"}
+                                        hashtag="iranianscholarsforliberty"
+
                                     >
-                                        <AiFillGithub />
-                                    </a>
+
+                                        <FacebookIcon round="true" />
+                                    </FacebookShareButton>
+
+
                                 </li>
                                 <li className="social-icons">
-                                    <a
-                                        href="https://twitter.com/Soumyajit4419"
-                                        target="_blank"
-                                        rel="noreferrer"
-                                        className="icon-colour  home-social-icons"
+
+                                    <TwitterShareButton
+                                        url={"https://www.iranianscholarsforliberty.com/"}
+                                        quote={"Please help"}
+                                        title={"Please help"}
+                                        hashtag="iranianscholarsforliberty"
                                     >
-                                        <AiOutlineTwitter />
-                                    </a>
+                                        <TwitterIcon round="true" />
+                                    </TwitterShareButton>
                                 </li>
                                 <li className="social-icons">
-                                    <a
-                                        href="https://www.linkedin.com/in/soumyajit4419/"
-                                        target="_blank"
-                                        rel="noreferrer"
-                                        className="icon-colour  home-social-icons"
+                                    <LinkedinShareButton
+                                        url={"https://www.iranianscholarsforliberty.com/"}
+                                        quote={"Please help"}
+                                        title={"Please help"}
+                                        hashtag="iranianscholarsforliberty"
                                     >
-                                        <FaLinkedinIn />
-                                    </a>
+                                        <LinkedinIcon round="true" />
+                                    </LinkedinShareButton>
+
                                 </li>
                                 <li className="social-icons">
-                                    <a
-                                        href="https://www.instagram.com/soumyajit4419"
-                                        target="_blank"
-                                        rel="noreferrer"
-                                        className="icon-colour home-social-icons"
+
+                                    <RedditShareButton
+
+                                        url={"https://www.iranianscholarsforliberty.com/"}
+                                        quote={"Please help"}
+                                        title={"Please help"}
+                                        hashtag="iranianscholarsforliberty"
                                     >
-                                        <AiFillInstagram />
-                                    </a>
+                                        <RedditIcon round="true" />
+                                    </RedditShareButton>
                                 </li>
+
+
                             </ul>
                         </div>
                     </Row>

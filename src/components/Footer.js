@@ -20,8 +20,8 @@ function Footer() {
           <h3>Copyright © {year} WLF</h3>
         </Col>
         <Col md="4" className="footer-body">
-          <ul className="footer-icons">
-            <li className="social-icons">
+          {/* <ul className="footer-icons"> */}
+            {/* <li className="social-icons">
               <a
                 href="https://github.com/soumyajit4419"
                 style={{ color: "white" }}
@@ -61,7 +61,7 @@ function Footer() {
                 <AiFillInstagram />
               </a>
             </li>
-          </ul>
+          </ul> */}
         </Col>
       </Row>
     </Container>
