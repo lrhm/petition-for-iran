@@ -10,13 +10,14 @@ function Type() {
           "Woman Life Liberty",
           "زن زندگی آزادی",
           "Woman Life Freedom",
-          "Jin, Jiyan, Azadî",
+          "Jin Jiyan Azadî",
           "Vrouw Leven Vrijheid",
-          "امرأة، حياة، حرية",
-          "Frau, Leben, Freiheit",
-          "Mujer, Vida, Libertad",
-          "Kadın, Yaşam, Özgürlük",
-          "女性、生命、自由"
+          "امرأة حياة حرية",
+          "Frau Leben Freiheit",
+          "Mujer Vida Libertad",
+          "Kadın Yaşam Özgürlük",
+          "女性、生命、自由",
+          "Donna Vita Libertà"
 
 
         ],
@@ -26,7 +27,7 @@ function Type() {
         textStyle: {
           color: "#fff",
           fontFamily: "Roboto Mono",
-          fontSize: "1.5rem",
+          fontSize: "1.4rem",
           fontWeight: "bold",
         },
       }}

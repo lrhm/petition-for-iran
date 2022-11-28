@@ -84,9 +84,9 @@ export default function HomePage() {
                 <Container className="home-content">
 
                     <Row style={{ justifyContent: "space-evenly" }}>
-                        <Col md={4} style={{ padding: 40 }} >
+                        <Col md={4} style={{ padding: 20 }} >
 
-                            <h1 style={{ paddingBottom: 15 }} className="heading">
+                            <h1 style={{ paddingBottom: 15 , paddingTop:5 }} className="heading">
                                 Please help
 
                             </h1>
