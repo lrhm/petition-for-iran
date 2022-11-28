@@ -33,7 +33,7 @@ function Home2() {
               <br />
               
 
-              We are fighting against child abuse, and child marriage. The minimum age of marriage in islamic republic's law is <b className="purple">13</b> for girls.
+              We are fighting against child abuse, and child marriage. The age of marriage in islamic republic's law is <b className="purple">13</b> for girls.
               <br />
               <br />
 
@@ -64,13 +64,13 @@ function Home2() {
             <a href="iranianscholarsforliberty.com" className="purple">Iranian Scholars for Liberty</a> is a group of Iranian scholars who are fighting for the freedom of Iran.
 
             </p>
-            {/* <ul className="home-about-social-links">
+            <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
                   href="https://github.com/soumyajit4419"
                   target="_blank"
                   rel="noreferrer"
-                  // className="icon-colour  home-social-icons"
+                  className="icon-colour  home-social-icons"
                 >
                   <AiFillGithub />
                 </a>
@@ -80,7 +80,7 @@ function Home2() {
                   href="https://twitter.com/Soumyajit4419"
                   target="_blank"
                   rel="noreferrer"
-                  // className="icon-colour  home-social-icons"
+                  className="icon-colour  home-social-icons"
                 >
                   <AiOutlineTwitter />
                 </a>
@@ -90,7 +90,7 @@ function Home2() {
                   href="https://www.linkedin.com/in/soumyajit4419/"
                   target="_blank"
                   rel="noreferrer"
-                  // className="icon-colour  home-social-icons"
+                  className="icon-colour  home-social-icons"
                 >
                   <FaLinkedinIn />
                 </a>
@@ -100,12 +100,12 @@ function Home2() {
                   href="https://www.instagram.com/soumyajit4419"
                   target="_blank"
                   rel="noreferrer"
-                  // className="icon-colour home-social-icons"
+                  className="icon-colour home-social-icons"
                 >
                   <AiFillInstagram />
                 </a>
               </li>
-            </ul> */}
+            </ul>
           </Col>
         </Row>
       </Container>

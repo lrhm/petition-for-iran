@@ -7,7 +7,7 @@ import {
 import { FaLinkedinIn } from "react-icons/fa";
 
 import Type from "./Type";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Button } from "react-bootstrap";
 import homeLogo from "../../Assets/home-main.svg";
 import Particle from "../Particle";
 
@@ -20,11 +20,12 @@ export default function HomePage() {
     return (
         <div>
 
+<Particle />
 
             <Container fluid className="home-section" id="home">
-                <Particle />
 
                 <Container className="home-content">
+
                     <Row>
                         <Col md={5}>
 
@@ -107,10 +108,11 @@ export default function HomePage() {
 
 
                             {/* opens a web page on lick */}
-                            <a haref="www.test.com"  className="petition"
-                            >
+                            <div  className="petition"   >
                                 Sign Iranian Scholars for Liberty Statement
-                            </a>
+                            </div>
+
+                            <Button className="home-about-social" style={{padding:10}} href="https://www.iranianscholarsforliberty.com/how-we-can-help/statement" target="_blank" rel="noreferrer">Please click me!</Button>
 
                 
 
@@ -118,8 +120,10 @@ export default function HomePage() {
                         </Col>
                         <Col md={3} style={{ paddingBottom: 20, paddingLeft: 50 }} className="home-d-flex" >
                             <div  className="petition">
-                                Free Iranian protest rapper Toomaj Salehi
+                            Free Iranian protest rapper Toomaj Salehi petition
                             </div>
+
+                            <Button className="home-about-social" style={{padding:10}} href="https://www.change.org/p/free-iranian-protest-rapper-toomaj-salehi" target="_blank" rel="noreferrer">Please click me too!</Button>
                             {/* <div style={{ textAlign: "center" }}>
                 test
               </div>

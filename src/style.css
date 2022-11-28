@@ -248,6 +248,7 @@ button:focus {
   background-size: cover !important;
   width: 100%;
   height: 100%;
+  z-index: -1;
 }
 
 .home-header {
@@ -257,7 +258,6 @@ button:focus {
 .home-section {
   position: relative;
   z-index: 0;
-  background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
   background-position: top center;
   background-repeat: no-repeat;
   padding-bottom: 30px !important;
@@ -278,6 +278,7 @@ button:focus {
 
 .petition {
   font-size: 2.1em !important;
+  padding-bottom: 25px !important;
   /* padding-left: 50px !important; */
 }
 
