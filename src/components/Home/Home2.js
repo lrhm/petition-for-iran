@@ -30,17 +30,19 @@ function Home2() {
               <br />
               <br />
 
-
-              We are fighting against them until they are <b className="purple"> defeated.</b> We are fighting for <b className="purple"> freedom.</b> We don't <b className="purple">compromise</b>
-              <br />
-              <br />
-              
-
-              We are fighting for children's rights, against abuse, and child marriage. The age of marriage under the islamic law is <b className="purple">13</b>.
+              We are fighting against systematic oppression of minorities and women.
               <br />
               <br />
 
 
+              We are fighting for children's rights and their future. Legal age of marriage is 13 under the Islamic law.
+              <br />
+              <br />
+
+
+              We will stop until we see a<b className="purple">free Iran.</b> We <b className="pruple">will not compromise</b>.
+              <br />
+              <br />
 
               We are asking for your help to <b className="purple"> spread the word </b> and <b className="purple"> sign our petition </b> to help us.
               <br />
