@@ -10,13 +10,16 @@ import {
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import Particle from "../Particle";
 
 function Home2() {
   return (
     
     <Container fluid  id="about">
+
       <Container>
   
+
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em", textAlign: "left" }}>
@@ -30,7 +33,7 @@ function Home2() {
               <br />
               <br />
 
-              We are fighting against systematic oppression of minorities and women.
+              We are fighting against systematic oppression to <b className="purple">minorities and women</b>.
               <br />
               <br />
 
@@ -40,7 +43,7 @@ function Home2() {
               <br />
 
 
-              We will stop until we see a<b className="purple">free Iran.</b> We <b className="pruple">will not compromise</b>.
+              We will not stop until we see a<b className="purple">free Iran.</b> We <b className="pruple">will not be compromised</b>.
               <br />
               <br />
 
@@ -54,7 +57,8 @@ function Home2() {
 
               We stand with <b className ="purple">Ukranians</b> in fighting for <b className="purple">Liberty</b>.
               The great people of <b className="purple">Ukraine</b> have a <b className="purple">army</b> to defend themselves.
-              We, the people of <b className="purple">Iran</b> have only <b className="purple">each other</b> to defend ourselves. 
+              We, the people of <b className="purple">Iran</b> have only <b className="purple">each other</b> to defend ourselves.
+            
               
             </p>
           </Col>
