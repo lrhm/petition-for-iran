@@ -23,7 +23,15 @@ function Type() {
         autoStart: true,
         loop: true,
         deleteSpeed: 50,
+        textStyle: {
+          color: "#fff",
+          fontFamily: "Roboto Mono",
+          fontSize: "1.5rem",
+          fontWeight: "bold",
+        },
       }}
+
+    
     />
   );
 }

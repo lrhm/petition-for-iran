@@ -258,10 +258,11 @@ button:focus {
 .home-section {
   position: relative;
   z-index: 0;
+  background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
   background-position: top center;
   background-repeat: no-repeat;
-  padding-bottom: 30px !important;
-  padding-top: 30px !important;
+  padding-bottom: 0 !important;
+  padding-top: 0 !important;
 }
 
 .home-content {
@@ -301,7 +302,7 @@ button:focus {
   color: #b562d6 !important;
 }
 
-@media (max-width: 767px) {
+/* @media (max-width: 767px) {
   .Typewriter__wrapper {
     font-size: 1.4em !important;
     font-weight: 500 !important;
@@ -310,7 +311,7 @@ button:focus {
   .Typewriter__cursor {
     display: none !important;
   }
-}
+} */
 
 .myAvtar {
   justify-content: center !important;
