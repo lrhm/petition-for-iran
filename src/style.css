@@ -156,7 +156,7 @@ button:focus {
 
 .logo {
   height: 1.4em !important;
-  width: 2.5em !important;
+  /* width: 2.5em !important; */
 }
 
 .navbar-nav .nav-link {
@@ -256,7 +256,7 @@ button:focus {
 
 .home-section {
   position: relative;
-  z-index: -1;
+  z-index: 1;
   background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
   background-position: top center;
   background-repeat: no-repeat;
@@ -271,8 +271,14 @@ button:focus {
 }
 
 .heading {
-  font-size: 2.4em !important;
-  padding-left: 50px !important;
+  font-size: 2.1em !important;
+  /* padding-left: 50px !important; */
+}
+
+
+.petition {
+  font-size: 2.1em !important;
+  /* padding-left: 50px !important; */
 }
 
 .heading-name {
@@ -324,6 +330,7 @@ button:focus {
 }
 
 .home-about-description {
+  font-size: 1.3em !important;
   color: white !important;
   padding-top: 100px !important;
   padding-bottom: 20px !important;

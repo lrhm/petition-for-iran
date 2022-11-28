@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import myImg from "../../Assets/be_our_voice.jpg";
+import voice from "../../Assets/14.jpeg";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -15,62 +16,60 @@ function Home2() {
       <Container>
         <Row>
           <Col md={8} className="home-about-description">
-            <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+            <h1 style={{ fontSize: "2.6em", textAlign: "left" }}>
+            <span className="purple"> Iran's 2022 Revolution </span> 
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+              The world's first <span className="purple"> Feminist Revolution</span> in history.
+              <br />  
               <br />
-              <br />I am fluent in classics like
-              <i>
-                <b className="purple"> C++, Javascript and Python. </b>
-              </i>
+              We are fighting for <b className="purple"> gender equality, freedom of speech, and freedom of religion.</b>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
-              <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Deep Learning and Natural Launguage Processing.
-                </b>
-              </i>
+
+
+              We are fighting against a regime that is <b className="purple"> killing, torturing, and imprisoning </b> its own people and has killed over 10,000 people in the last 40 years.
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and Next.js</b>
-              </i>
+              
+
+              We are fighting against pedophilia, child abuse, and child marriage. The age of consent in islamic republic's law is <b className="purple">13</b> for girls.
+              <br />
+              <br />
+
+
+
+              We are asking for your help to <b className="purple"> spread the word </b> and <b className="purple"> sign our petition </b> to help the Iranian people.
+              <br />
+              <br />
+             
+      
+              <br />
+              <br />
+
+              We stand with <b className="purple">Iranians </b> and <b className ="purple">Ukranians</b> for our quest to <b className="purple">Liberty</b>.
+              
             </p>
           </Col>
           <Col md={4} className="myAvtar">
-            <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
-            </Tilt>
+              <img src={myImg} className="img-fluid"  />
+              <img src={voice} className="img-fuild" width={300} style={{paddingTop:40}} />
           </Col>
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
-            <h1>FIND ME ON</h1>
+            <h1></h1>
             <p>
-              Feel free to <span className="purple">connect </span>with me
+            <a href="iranianscholarsforliberty.com" className="purple">Iranian Scholars for Liberty</a> is a group of Iranian scholars who are fighting for the freedom of Iran.
+
             </p>
-            <ul className="home-about-social-links">
+            {/* <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
                   href="https://github.com/soumyajit4419"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  // className="icon-colour  home-social-icons"
                 >
                   <AiFillGithub />
                 </a>
@@ -80,7 +79,7 @@ function Home2() {
                   href="https://twitter.com/Soumyajit4419"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  // className="icon-colour  home-social-icons"
                 >
                   <AiOutlineTwitter />
                 </a>
@@ -90,7 +89,7 @@ function Home2() {
                   href="https://www.linkedin.com/in/soumyajit4419/"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  // className="icon-colour  home-social-icons"
                 >
                   <FaLinkedinIn />
                 </a>
@@ -100,12 +99,12 @@ function Home2() {
                   href="https://www.instagram.com/soumyajit4419"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour home-social-icons"
+                  // className="icon-colour home-social-icons"
                 >
                   <AiFillInstagram />
                 </a>
               </li>
-            </ul>
+            </ul> */}
           </Col>
         </Row>
       </Container>
