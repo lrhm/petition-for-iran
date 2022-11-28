@@ -26,7 +26,7 @@ export default function HomePage() {
 
                 <Container className="home-content">
                     <Row>
-                        <Col md={5} className="home-d-flex">
+                        <Col md={5}>
 
                             <h1 style={{ paddingBottom: 15 }} className="heading">
                                 Please help
@@ -54,7 +54,7 @@ export default function HomePage() {
                             </div>
                             <div style={{ paddingTop: 5, paddingBottom: 20 }} className="heading" >And sharing our voices</div>
 
-                            {/* <ul style={{ paddingTop: 10 }}  >
+                            <ul style={{ paddingTop: 10 }}  >
 
                                 <li className="social-icons">
                                     <a
@@ -96,18 +96,18 @@ export default function HomePage() {
                                         <AiFillInstagram />
                                     </a>
                                 </li>
-                            </ul> */}
+                            </ul>
 
-
+                          
 
                         </Col>
 
 
-                        <Col md={3} style={{ paddingBottom: 20, paddingLeft: 50 }}  className="home-d-flex" >
+                        <Col md={3} style={{ paddingBottom: 20, paddingLeft: 50 }}    >
 
 
                             {/* opens a web page on lick */}
-                            <a href="www.test.com" style={{ paddingTop: 6 }} className="petition"
+                            <a haref="www.test.com"  className="petition"
                             >
                                 Sign Iranian Scholars for Liberty Statement
                             </a>
@@ -117,7 +117,7 @@ export default function HomePage() {
 
                         </Col>
                         <Col md={3} style={{ paddingBottom: 20, paddingLeft: 50 }} className="home-d-flex" >
-                            <div style={{ paddingTop: 60 }} className="petition">
+                            <div  className="petition">
                                 Free Iranian protest rapper Toomaj Salehi
                             </div>
                             {/* <div style={{ textAlign: "center" }}>

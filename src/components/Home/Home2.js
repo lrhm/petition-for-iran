@@ -33,7 +33,7 @@ function Home2() {
               <br />
               
 
-              We are fighting against pedophilia, child abuse, and child marriage. The age of consent in islamic republic's law is <b className="purple">13</b> for girls.
+              We are fighting against child abuse, and child marriage. The minimum age of marriage in islamic republic's law is <b className="purple">13</b> for girls.
               <br />
               <br />
 
@@ -47,7 +47,8 @@ function Home2() {
               <br />
               <br />
 
-              We stand with <b className="purple">Iranians </b> and <b className ="purple">Ukranians</b> for our quest to <b className="purple">Liberty</b>.
+              We stand with <b className="purple">Iranians </b> and <b className ="purple">Ukranians</b> in fighting for <b className="purple">Liberty</b>.
+              The great people of <b className="purple">Ukraine</b> have a <b className="purple">army</b> to defend themselves against facism. We, the people of <b className="purple">Iran</b> have only <b className="purple">you and </b><b className="purple">us</b> to defend ourselves.
               
             </p>
           </Col>
