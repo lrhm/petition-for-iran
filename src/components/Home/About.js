@@ -38,22 +38,36 @@ export default function About() {
               <br />
 
 
-              We are fighting for children's lives and their future. The legal age of marriage is <b className="purple-bold">13</b> under Islamic law and  <b className="purple">we are fighting atainst that.</b>
+              We are fighting for <b className="purple">children's</b> lives and future. We are fighting against child murder, marriage, labor and abuse.
+            
+
+              {/* <b className="purple-bold"> 13</b> is the minimum age of marriage for girls under islamic law and we will not let it stay for long. */}
+              
+              
+               <br />
+               <br />
+
+
+              We are fighting for <b className="purple">justice</b> of crimes against humanity, and we will not stop until the trial of <b className="purple">Mahsa Amini</b> is held in <b className="purple">Iran</b>.
+              <br />
+              <br />
+        
+              We will not stop until we see <b className="purple">Iran</b> without islamic republic. <b className="purple">We will not compromise</b>.
               <br />
               <br />
 
 
-              We will not stop until we see <b className="purple">Iran</b> without islamic republic. We wont compromise.
-              <br />
-              <br />
-
-              We are asking for your help to <b className="purple"> spread the word </b> and <b className="purple"> sign our petition </b> to help us.
-              <br />
-              <br />
 
 
               <br />
               <b className="purple-bold">We Shall Prevail</b>
+
+              {/* <br />
+              <br />
+              We are asking for your help to <b className="purple"> spread the word </b> and <b className="purple"> sign our petition </b> to help us. */}
+              
+
+
 
               {/* We stand with <b className="purple">Ukranians</b> in fighting for <b className="purple">Liberty</b>.
               The great people of <b className="purple">Ukraine</b> have a <b className="purple">army</b> to defend themselves.
@@ -63,7 +77,7 @@ export default function About() {
             </p>
           </Col>
           <Col md={4} className="myAvtar">
-            <img src="assets/20.jpeg" className="img-fuild" width={400}  />
+            <img src="assets/20.jpeg" className="img-fuild" width={400} />
 
             <img src={myImg} className="img-fluid" style={{ paddingTop: 40 }} />
           </Col>
