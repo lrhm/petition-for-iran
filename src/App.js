@@ -6,6 +6,7 @@ import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
 import Footer from "./components/Footer";
 import Lyrics from "./components/Resume/ResumeNew";
+import Gallery from "./components/Gallery/Gallery";
 import {
   BrowserRouter as Router,
   Route,
@@ -39,6 +40,7 @@ function App() {
           <Route path="/project" element={<Projects />} />
           <Route path="/about" element={<About />} />
           <Route path="/lyrics" element={<Lyrics />} />
+          <Route path="/art" element={<Gallery />} />
           <Route path="*" element={<Navigate to="/"/>} />
         </Routes>
         <Footer />

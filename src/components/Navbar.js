@@ -12,8 +12,13 @@ import {
   AiFillStar,
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
-  AiOutlineUser,
+  AiOutlineUser
 } from "react-icons/ai";
+
+import {
+  MdOutlineTheaterComedy
+}
+from "react-icons/md";
 
 import { CgFileDocument } from "react-icons/cg";
 
@@ -84,13 +89,13 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/project"
+                to="/art"
                 onClick={() => updateExpanded(false)}
               >
-                <AiOutlineFundProjectionScreen
+                <MdOutlineTheaterComedy
                   style={{ marginBottom: "2px" }}
                 />{" "}
-                Projects
+                Artwork
               </Nav.Link>
             </Nav.Item>
 
