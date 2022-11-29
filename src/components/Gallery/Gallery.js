@@ -261,7 +261,7 @@ export default function Gallery() {
     return (
         <div>
 
-            <Carousel cols={2} rows={1} gap={10} loop>
+            <Carousel >
 
 
                 {
