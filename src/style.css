@@ -18,6 +18,12 @@ html {
   color: var(--imp-text-color) !important;
 }
 
+.purple-bold{
+  color: var(--imp-text-color) !important;
+  font-weight: bold;
+  font-size: larger;
+}
+
 button:focus {
   box-shadow: none !important;
 }
@@ -267,7 +273,7 @@ button:focus {
 }
 
 .home-content {
-  padding: 9rem 0 2rem !important;
+  padding: 5rem 1rem 2rem !important;
   color: whitesmoke;
   text-align: left;
 }
@@ -755,4 +761,13 @@ button:focus {
 }
 .fork-btn-inner::after {
   display: none !important;
+}
+.no-hyperlink {
+  color: white;
+  text-decoration: none !important;
+}
+
+.no-hyperlink:hover {
+  color: white;
+  text-decoration: none !important;
 }

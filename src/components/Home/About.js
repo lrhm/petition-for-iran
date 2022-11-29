@@ -12,7 +12,7 @@ import {
 import { FaLinkedinIn } from "react-icons/fa";
 import Particle from "../Particle";
 
-function Home2() {
+export default function About() {
   return (
     
     <Container fluid  id="about">
@@ -26,7 +26,7 @@ function Home2() {
             <span className="purple"> Iran's 2022 Revolution </span> 
             </h1>
             <p className="home-about-body">
-              The world's first <span className="purple"> Feminist Revolution</span> in history.
+              The world's first <span className="purple"> feminist Revolution</span> in history.
               <br />  
               <br />
               We are fighting for <b className="purple"> gender equality, freedom of speech, and freedom of religion.</b>
@@ -38,12 +38,12 @@ function Home2() {
               <br />
 
 
-              We are fighting for children's lives and their future. The legal age of marriage is 13 under Islamic law and we fight to change.
+              We are fighting for children's lives and their future. The legal age of marriage is <b className="purple-bold">13</b> under Islamic law and  <b className="purple">we fight to change.</b>
               <br />
               <br />
 
 
-              We will not stop until we see a<b className="purple">free Iran.</b> We <b className="pruple">will not be compromised</b>.
+              We will not stop until we see <b className="purple">Iran</b> without islamic republic. We will not be compromised.
               <br />
               <br />
 
@@ -122,4 +122,5 @@ function Home2() {
     </Container>
   );
 }
-export default Home2;
+
+

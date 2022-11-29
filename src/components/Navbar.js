@@ -7,6 +7,7 @@ import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 import { CgGitFork } from "react-icons/cg";
 import { ImBlog } from "react-icons/im";
+import { NavHashLink, HashLink } from 'react-router-hash-link';
 import {
   AiFillStar,
   AiOutlineHome,
@@ -39,7 +40,7 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand href="/" className="d-flex">
-          <div className="purple">WLF Revolution</div>
+          <div className="purple">Woman Life Freedom Revolution</div>
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
@@ -53,20 +54,31 @@ function NavBar() {
         </Navbar.Toggle>
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto" defaultActiveKey="#home">
-            <Nav.Item>
-              <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
+            <Nav.Item style={{paddingTop: 12}} >
+              <HashLink smooth to="/#home"  className="no-hyperlink"
+                                onClick={() => updateExpanded(false)}
+
+              >
                 <AiOutlineHome style={{ marginBottom: "2px" }} /> Home
-              </Nav.Link>
+              </HashLink>
             </Nav.Item>
 
-            <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="/about"
-                onClick={() => updateExpanded(false)}
-              >
-                <AiOutlineUser style={{ marginBottom: "2px" }} /> About
-              </Nav.Link>
+            <Nav.Item style={{paddingTop: 12 , paddingRight:12, paddingLeft:12}} >
+            <HashLink smooth to="/#about" className="no-hyperlink"
+                              onClick={() => updateExpanded(false)}
+
+            >
+            <AiOutlineUser style={{ paddingTop:0 }} /> About
+               </HashLink>
+              
+
+                {/* <Nav.Link
+                  as={Link}
+                  to="#about"
+                  onClick={() => updateExpanded(false)}
+                >
+                  <AiOutlineUser style={{ marginBottom: "2px" }} /> About
+                </Nav.Link> */}
             </Nav.Item>
 
             <Nav.Item>

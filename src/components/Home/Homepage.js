@@ -151,7 +151,7 @@ export default function HomePage() {
                             paddingTop: 50,
                             paddingBottom: 0,
                         }}>
-                            <div style={{ paddingTop: 5, paddingBottom: 20 }} className="heading" >Please share our voices and stand with us</div>
+                            <div style={{ paddingTop: 5, paddingBottom: 20 }} className="heading" >Please sign these petitions and share our voices.</div>
 
                             <ul style={{ paddingTop: 10 }}  >
 
