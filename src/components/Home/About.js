@@ -26,7 +26,7 @@ export default function About() {
             <span className="purple"> Iran's 2022 Revolution </span> 
             </h1>
             <p className="home-about-body">
-              The world's first <span className="purple"> feminist Revolution</span> in history.
+              In the world's first <span className="purple"> feminist Revolution</span> in history.
               <br />  
               <br />
               We are fighting for <b className="purple"> gender equality, freedom of speech, and freedom of religion.</b>
