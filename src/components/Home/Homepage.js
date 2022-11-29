@@ -39,6 +39,11 @@ import homeLogo from "../../Assets/home-main.svg";
 import Particle from "../Particle";
 import Petition from "./Petition";
 
+
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import { Carousel } from 'react-responsive-carousel';
+
+
 export default function HomePage() {
 
     const petitions = [{
@@ -48,7 +53,7 @@ export default function HomePage() {
     }, {
         title: "Sign Iranian Scholars for Liberty Statement",
         url: "https://www.iranianscholarsforliberty.com/how-we-can-help/statement",
-        buttonText: "Please sign, later the revolution happens more people will die",
+        buttonText: "Academics, please sign this statement",
     },
 
     {
