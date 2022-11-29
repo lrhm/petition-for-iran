@@ -38,7 +38,7 @@ export default function About() {
               <br />
 
 
-              We are fighting for children's lives and their future. The legal age of marriage is <b className="purple-bold">13</b> under Islamic law and  <b className="purple">we are fighting to change that.</b>
+              We are fighting for children's lives and their future. The legal age of marriage is <b className="purple-bold">13</b> under Islamic law and  <b className="purple">we are fighting atainst that.</b>
               <br />
               <br />
 
@@ -53,11 +53,11 @@ export default function About() {
 
 
               <br />
-              <br />
+              <b className="purple-bold">We Shall Prevail</b>
 
-              We stand with <b className="purple">Ukranians</b> in fighting for <b className="purple">Liberty</b>.
+              {/* We stand with <b className="purple">Ukranians</b> in fighting for <b className="purple">Liberty</b>.
               The great people of <b className="purple">Ukraine</b> have a <b className="purple">army</b> to defend themselves.
-              We, the people of <b className="purple">Iran</b> have only <b className="purple">each other</b> to defend ourselves.
+              We, the people of <b className="purple">Iran</b> have only <b className="purple">each other</b> to defend ourselves. */}
 
 
             </p>
