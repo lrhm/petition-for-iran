@@ -21,6 +21,12 @@ export default function About() {
 
 
         <Row>
+        <Col md={4} className="myAvtar">
+            {/* <img src="assets/20.jpeg" className="img-fuild" width={400} /> */}
+
+            <img src="assets/زن زندگی آزادی/51.jpg" className="img-fluid" style={{ paddingTop: 40 }} />
+          </Col>
+
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em", textAlign: "left" }}>
               <span className="purple"> Iran's 2022 Revolution </span>
@@ -76,11 +82,7 @@ export default function About() {
 
             </p>
           </Col>
-          <Col md={4} className="myAvtar">
-            {/* <img src="assets/20.jpeg" className="img-fuild" width={400} /> */}
-
-            <img src="assets/زن زندگی آزادی/51.jpg" className="img-fluid" style={{ paddingTop: 40 }} />
-          </Col>
+  
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
