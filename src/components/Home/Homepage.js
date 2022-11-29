@@ -169,8 +169,8 @@ export default function HomePage() {
                                 <li className="social-icons">
                                     <FacebookShareButton
                                         url={"https://petition-for-iran.vercel.app/freedom"}
-                                        quote={"Please share and help Iranians in their fight for freedom and equality. You can help them win by filling out a petition:"}
-                                        title={"Please share and help Iranians in their fight for freedom and equality. You can help them win by filling out a petition:"}
+                                        quote={"I stand with the people of Iran. Please help us and sign these petitions:"}
+                                        title={"I stand with the people of Iran. Please help us and sign these petitions:"}
                                         hashtag="iranianscholarsforliberty"
 
                                     >
@@ -186,8 +186,8 @@ export default function HomePage() {
 
                                     <TwitterShareButton
                                         url={"https://petition-for-iran.vercel.app/freedom"}
-                                        title={"Please retweet and help Iranians in their fight for freedom and equality. You can help them win by filling out a petition:"}
-                                        hashtags={["Mahsa_Amini", "I_Stand_With_People_Of_Iran"]}
+                                        title={"I stand with the people of Iran. Please help us and sign these petitions:"}
+                                        hashtags={["Mahsa_Amini", "Iran"]}
                                     >
                                         <TwitterIcon round="true" />
                                     </TwitterShareButton>
@@ -195,8 +195,8 @@ export default function HomePage() {
                                 <li className="social-icons">
                                     <LinkedinShareButton
                                         url={"https://petition-for-iran.vercel.app/freedom"}
-                                        quote={"Please share and help Iranians in their fight for freedom and equality. You can help them win by filling out a petition:"}
-                                        title={"Please share and help Iranians in their fight for freedom and equality. You can help them win by filling out a petition:"}
+                                        quote={"I stand with the people of Iran. Please help us and sign these petitions:"}
+                                        title={"I stand with the people of Iran. Please help us and sign these petitions:"}
                                     >
                                         <LinkedinIcon round="true" />
                                     </LinkedinShareButton>
@@ -207,7 +207,7 @@ export default function HomePage() {
                                     <RedditShareButton
 
                                         url={"https://petition-for-iran.vercel.app/freedom"}
-                                        title={"Please share and help Iranians in their fight for freedom and equality. You can help them win by filling out a petition:"}
+                                        title={"I stand with the people of Iran. Please help us and sign these petitions:"}
                                     >
                                         <RedditIcon round="true" />
                                     </RedditShareButton>
