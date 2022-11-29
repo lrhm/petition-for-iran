@@ -14,20 +14,20 @@ import Particle from "../Particle";
 
 export default function About() {
   return (
-    
-    <Container fluid  id="about">
+
+    <Container fluid id="about">
 
       <Container>
-  
+
 
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em", textAlign: "left" }}>
-            <span className="purple"> Iran's 2022 Revolution </span> 
+              <span className="purple"> Iran's 2022 Revolution </span>
             </h1>
             <p className="home-about-body">
               In the world's first <span className="purple"> feminist revolution</span> in history.
-              <br />  
+              <br />
               <br />
               We are fighting for <b className="purple"> gender equality, freedom of speech, and freedom of religion.</b>
               <br />
@@ -38,40 +38,41 @@ export default function About() {
               <br />
 
 
-              We are fighting for children's lives and their future. The legal age of marriage is <b className="purple-bold">13</b> under Islamic law and  <b className="purple">we fight to change that!</b>
+              We are fighting for children's lives and their future. The legal age of marriage is <b className="purple-bold">13</b> under Islamic law and  <b className="purple">we are fighting to change that.</b>
               <br />
               <br />
 
 
-              We will not stop until we see <b className="purple">Iran</b> without islamic republic. We wont compromised.
+              We will not stop until we see <b className="purple">Iran</b> without islamic republic. We wont compromise.
               <br />
               <br />
 
               We are asking for your help to <b className="purple"> spread the word </b> and <b className="purple"> sign our petition </b> to help us.
               <br />
               <br />
-             
-      
+
+
               <br />
               <br />
 
-              We stand with <b className ="purple">Ukranians</b> in fighting for <b className="purple">Liberty</b>.
+              We stand with <b className="purple">Ukranians</b> in fighting for <b className="purple">Liberty</b>.
               The great people of <b className="purple">Ukraine</b> have a <b className="purple">army</b> to defend themselves.
               We, the people of <b className="purple">Iran</b> have only <b className="purple">each other</b> to defend ourselves.
-            
-              
+
+
             </p>
           </Col>
           <Col md={4} className="myAvtar">
-              <img src={myImg} className="img-fluid"  />
-              <img src={voice} className="img-fuild" width={300} style={{paddingTop:40}} />
+            <img src="assets/20.jpeg" className="img-fuild" width={400}  />
+
+            <img src={myImg} className="img-fluid" style={{ paddingTop: 40 }} />
           </Col>
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
             <h1></h1>
             <p>
-            <a href="iranianscholarsforliberty.com" className="purple">Iranian Scholars for Liberty</a> is a group of Iranian scholars who are fighting for the freedom of Iran.
+              <a href="iranianscholarsforliberty.com" className="purple">Iranian Scholars for Liberty</a> is a group of Iranian scholars who are fighting for the freedom of Iran.
 
             </p>
             {/* <ul className="home-about-social-links">
