@@ -18,7 +18,7 @@ export default function Gallery() {
                         {
                             images.map((item, index) => {
                                 return (
-                                    <img src={item} style={{ maxWidth: 500, maxHeight: 500 }} />
+                                    <img src={item} style={{ maxWidth: 500, maxHeight: 500, padding:10 }} />
 
                                 )
                             })

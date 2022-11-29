@@ -19,43 +19,84 @@ function ResumeNew() {
     setWidth(window.innerWidth);
   }, []);
 
+  const files = [{
+
+    title: "For the Future of Iran (Dutch, English)",
+    url: "assets/baraye_dutch.pdf",
+  },
+  {
+    title: "For the Future of Iran (German, English)",
+    url: "assets/for_future.pdf",
+  },
+  {
+    title: "In the Name of Rainbow God (Dutch, English)",
+    url: "assets/rainbow_god.pdf",
+  }
+  ]
+
   return (
     <div>
       <Container fluid className="resume-section">
         <Particle />
         <Row style={{ justifyContent: "center", position: "relative" }}>
-          <Button
+
+          {files.map((file, index) => {
+            return (
+              <div
+                md={3}
+                style={{
+                  padding: 20,
+                }}>
+                <Button
+
+                  variant="primary"
+                  href={file.url}
+                  target="_blank"
+                  style={{}}
+                >
+                  <AiOutlineDownload />
+                  &nbsp;{file.title}
+                </Button>
+              </div>
+            )
+
+          })}
+
+
+          {/* <Button
             variant="primary"
-            href={pdf}
+            href="assets/baraye_dutch.pdf"
             target="_blank"
             style={{ maxWidth: "250px" }}
           >
             <AiOutlineDownload />
-            &nbsp;Download Lyrics
-          </Button>
+            &nbsp;Download Lyrics Dutch
+          </Button> */}
         </Row>
 
-        <Row className="resume">
-          <Document file={pdf} className="d-flex justify-content-center">
-            <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} />
-          </Document>
-        </Row>
-        <Row className="resume">
-          <Document file={pdf} className="d-flex justify-content-center">
-            <Page pageNumber={2} scale={width > 786 ? 1.7 : 0.6} />
-          </Document>
-        </Row>
-        <Row style={{ justifyContent: "center", position: "relative" }}>
-          <Button
-            variant="primary"
-            href={pdf}
-            target="_blank"
-            style={{ maxWidth: "250px" }}
-          >
-            <AiOutlineDownload />
-            &nbsp;Download Lyrics
-          </Button>
-        </Row>
+        {
+          files.map((file, index) => {
+            return (
+              <div
+              >
+                <Row className="resume">
+                  <Document file={file} className="d-flex justify-content-center">
+                    <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} />
+                  </Document>
+                </Row>
+                <Row className="resume">
+                  <Document file={file} className="d-flex justify-content-center">
+                    <Page pageNumber={2} scale={width > 786 ? 1.7 : 0.6} />
+                  </Document>
+                </Row>
+              </div>
+            )
+
+          })
+        }
+
+
+
       </Container>
     </div>
   );

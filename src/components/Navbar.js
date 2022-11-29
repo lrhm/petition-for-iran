@@ -52,7 +52,7 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand href="/" className="d-flex">
-          <div className="purple">Woman Life Freedom Revolution</div>
+          <div className="purple">WLF Revolution</div>
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
@@ -112,7 +112,7 @@ function NavBar() {
                 to="/lyrics"
                 onClick={() => updateExpanded(false)}
               >
-                <CgFileDocument style={{ marginBottom: "2px" }} /> For
+                <CgFileDocument style={{ marginBottom: "2px" }} /> Lyrics
               </Nav.Link>
             </Nav.Item>
 
