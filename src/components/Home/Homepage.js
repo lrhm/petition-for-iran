@@ -53,7 +53,7 @@ export default function HomePage() {
     }, {
         title: "Sign Iranian Scholars for Liberty Statement",
         url: "https://www.iranianscholarsforliberty.com/how-we-can-help/statement",
-        buttonText: "Academics, please sign this statement",
+        buttonText: "Academics, please sign this petition",
     },
 
     {
