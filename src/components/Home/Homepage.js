@@ -40,8 +40,8 @@ import Particle from "../Particle";
 import Petition from "./Petition";
 
 
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
-import { Carousel } from 'react-responsive-carousel';
+// import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+// import { Carousel } from 'react-responsive-carousel';
 
 
 export default function HomePage() {
