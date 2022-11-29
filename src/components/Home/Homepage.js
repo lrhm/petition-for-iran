@@ -50,26 +50,37 @@ export default function HomePage() {
         title: "G7 Leaders: Expel Islamic Republic's Diplomats",
         url: "https://www.change.org/p/g7-leaders-expel-iran-s-diplomats-demand-that-political-prisoners-be-freed",
         buttonText: "Please make a difference",
+        signed: 915259,
+        goal: 1000000
     }, {
         title: "Sign Iranian Scholars for Liberty Statement",
         url: "https://www.iranianscholarsforliberty.com/how-we-can-help/statement",
         buttonText: "Academics, please sign this petition",
+        signed: 0,
+        goal: -1
     },
 
     {
         title: "Stop The Executions of Protestors in Iran",
         url: "https://www.change.org/p/very-urgent-stop-execution-of-protestors-in-iran",
         buttonText: "Please help saving lives",
+        signed: 42629,
+        goal: 50000
+
     },
     {
         title: "Help Children in Iran",
         url: "https://www.change.org/p/iranian-regime-violent-targeting-of-children-and-adolescents",
         buttonText: "Please help children are being killed by bullets",
+        signed: 58272,
+        goal: 75000
     },
     {
         title: " Free Iranian Protest Rapper Toomaj Salehi",
         url: "https://www.change.org/p/free-iranian-protest-rapper-toomaj-salehi",
         buttonText: "Please help he faces death penalty",
+        signed: 194853,
+        goal: 200000
     }
 
     ]
@@ -84,14 +95,14 @@ export default function HomePage() {
 
 
             <Container fluid className="home-section" id="home"  >
-            <Particle />
+                <Particle />
 
                 <Container className="home-content">
 
                     <Row style={{ justifyContent: "space-evenly" }}>
                         <Col md={4} style={{ padding: 20 }} >
 
-                            <h1 style={{ paddingBottom: 15 , paddingTop:5 }} className="heading">
+                            <h1 style={{ paddingBottom: 15, paddingTop: 5 }} className="heading">
                                 Please help
 
                             </h1>
@@ -140,7 +151,7 @@ export default function HomePage() {
 
                     <Row>
 
-                   
+
                     </Row>
 
                     <Row>
@@ -159,7 +170,7 @@ export default function HomePage() {
                                     <FacebookShareButton
                                         url={"https://petition-for-iran.vercel.app/you-can-help-us"}
                                         quote={"Please share and help Iranians in their fight for freedom and equality. You can help them win by filling out a petition:"}
-                                       title={"Please share and help Iranians in their fight for freedom and equality. You can help them win by filling out a petition:"}
+                                        title={"Please share and help Iranians in their fight for freedom and equality. You can help them win by filling out a petition:"}
                                         hashtag="iranianscholarsforliberty"
 
                                     >
