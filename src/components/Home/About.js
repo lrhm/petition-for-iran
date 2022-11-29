@@ -38,7 +38,7 @@ export default function About() {
               <br />
 
 
-              We are fighting for children's lives and their future. The legal age of marriage is <b className="purple-bold">13</b> under Islamic law and  <b className="purple">we fight to change.</b>
+              We are fighting for children's lives and their future. The legal age of marriage is <b className="purple-bold">13</b> under Islamic law and  <b className="purple">we fight to change that!</b>
               <br />
               <br />
 
