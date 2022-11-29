@@ -175,7 +175,7 @@ export default function HomePage() {
 
                                     <TwitterShareButton
                                         url={"https://petition-for-iran.vercel.app/you-can-help-us"}
-                                        title={"Please share and help Iranians in their fight for freedom and equality. You can help them win by filling out a petition:"}
+                                        title={"Please retweet and help Iranians in their fight for freedom and equality. You can help them win by filling out a petition:"}
                                         hashtags={["Mahsa_Amini", "I_Stand_With_People_Of_Iran"]}
                                     >
                                         <TwitterIcon round="true" />
