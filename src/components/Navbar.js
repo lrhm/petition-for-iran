@@ -16,9 +16,15 @@ import {
 } from "react-icons/ai";
 
 import {
-  MdOutlineTheaterComedy
+  MdOutlineTheaterComedy,
+  MdHowToVote
 }
 from "react-icons/md";
+
+import {
+  GiVote,
+}
+from "react-icons/gi";
 
 import { CgFileDocument } from "react-icons/cg";
 
@@ -64,7 +70,7 @@ function NavBar() {
                                 onClick={() => updateExpanded(false)}
 
               >
-                <AiOutlineHome style={{ marginBottom: "2px" }} /> Home
+                <MdHowToVote style={{ marginBottom: "2px" }} /> Petition
               </HashLink>
             </Nav.Item>
 
@@ -105,13 +111,13 @@ function NavBar() {
                 to="/lyrics"
                 onClick={() => updateExpanded(false)}
               >
-                <CgFileDocument style={{ marginBottom: "2px" }} /> Lyrics
+                <CgFileDocument style={{ marginBottom: "2px" }} /> For
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
               <Nav.Link
-                href="https://blogs.soumya-jit.tech/"
+                href="https://www.iranianscholarsforliberty.com/"
                 target="_blank"
                 rel="noreferrer"
               >
