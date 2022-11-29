@@ -159,7 +159,7 @@ export default function HomePage() {
                             textAlign: "center",
                             alignItems: "center",
                             justifyContent: "center",
-                            paddingTop: 50,
+                            paddingTop: 20,
                             paddingBottom: 0,
                         }}>
                             <div style={{ paddingTop: 5, paddingBottom: 20 }} className="heading" >Please sign these petitions and share our voices.</div>
