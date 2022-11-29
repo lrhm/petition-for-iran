@@ -62,14 +62,14 @@ export default function HomePage() {
         buttonText: "Please help saving lives",
     },
     {
-        title: "Help children in Iran",
+        title: "Help Children in Iran",
         url: "https://www.change.org/p/iranian-regime-violent-targeting-of-children-and-adolescents",
         buttonText: "Please help children are being killed by bullets",
     },
     {
-        title: " Free Iranian protest rapper Toomaj Salehi",
+        title: " Free Iranian Protest Rapper Toomaj Salehi",
         url: "https://www.change.org/p/free-iranian-protest-rapper-toomaj-salehi",
-        buttonText: "Please help, he faces death penalty",
+        buttonText: "Please help he faces death penalty",
     }
 
     ]
@@ -176,7 +176,7 @@ export default function HomePage() {
                                     <TwitterShareButton
                                         url={"https://petition-for-iran.vercel.app/you-can-help-us"}
                                         title={"Please share and help Iranians in their fight for freedom and equality. You can help them win by filling out a petition:"}
-                                        hashtags={["Mahsa_Amini", "I_Stand_With_Iran"]}
+                                        hashtags={["Mahsa_Amini", "I_Stand_With_People_Of_Iran"]}
                                     >
                                         <TwitterIcon round="true" />
                                     </TwitterShareButton>
