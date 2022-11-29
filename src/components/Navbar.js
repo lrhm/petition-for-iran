@@ -23,6 +23,7 @@ from "react-icons/md";
 
 import {
   GiVote,
+  GiRevolt
 }
 from "react-icons/gi";
 
@@ -79,7 +80,7 @@ function NavBar() {
                               onClick={() => updateExpanded(false)}
 
             >
-            <AiOutlineUser style={{ paddingTop:0 }} /> About
+            <GiRevolt style={{ paddingTop:0 }} /> Revolution
                </HashLink>
               
 
