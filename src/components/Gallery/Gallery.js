@@ -2,6 +2,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a lo
 import { Carousel } from 'react-responsive-carousel'
 import { Container, Row, Col, Button } from "react-bootstrap";
 
+import { useEffect } from "react";
 import './Gallery.css'
 import GetImages from './Data.js'
 
@@ -9,8 +10,12 @@ export default function Gallery() {
 
     const images = GetImages()
 
+    useEffect(() => {
+        document.body.style.zoom = "100%";
+      }, []);
+
     return (
-        <div style={{padding:80}}>
+        <div style={{paddingTop:80}}>
 
             <Container>
 
@@ -19,7 +24,7 @@ export default function Gallery() {
                             images.map((item, index) => {
                                 return (
                                     <Col >
-                                    <div style={{padding:30, position:"relative"}}>
+                                    <div style={{padding:30}}>
                                     <img src={item}  className="image" />
                                     </div>
                                     </Col>
