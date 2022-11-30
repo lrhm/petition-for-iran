@@ -9,7 +9,7 @@ export default function Petition({ title, url, buttonText, signed, goal }) {
 
     return (
         <div>
-            <div class  Name="petition" >
+            <div className="petition" >
                 {title}
             </div>
 
