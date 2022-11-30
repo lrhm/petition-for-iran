@@ -10,16 +10,19 @@ export default function Gallery() {
     const images = GetImages()
 
     return (
-        <div>
+        <div style={{padding:80}}>
 
             <Container>
 
-                <Row md={3}>
+                <Row  >
                         {
                             images.map((item, index) => {
                                 return (
-                                    <img src={item} style={{ maxWidth: 500, maxHeight: 500, padding:10 }} />
-
+                                    <Col >
+                                    <div style={{padding:30, position:"relative"}}>
+                                    <img src={item}  className="image" />
+                                    </div>
+                                    </Col>
                                 )
                             })
 
