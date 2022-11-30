@@ -61,9 +61,13 @@ export default function About() {
 
 
 
-              <br />
               <b className="purple-bold">We Shall Prevail</b>
-
+              <br />
+              <br />
+              <b className="purple-bold">Woman Life Freedom</b>
+              <br />
+              <b className="purple-bold">Human Life Liberty</b>
+              
               {/* <br />
               <br />
               We are asking for your help to <b className="purple"> spread the word </b> and <b className="purple"> sign our petition </b> to help us. */}
