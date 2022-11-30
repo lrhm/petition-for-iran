@@ -11,7 +11,7 @@ export default function Gallery() {
     const images = GetImages()
 
     useEffect(() => {
-        document.body.style.zoom = "100%";
+        document.body.style.zoom = "90%";
       }, []);
 
     return (
