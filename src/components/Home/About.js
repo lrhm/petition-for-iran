@@ -50,7 +50,7 @@ export default function About() {
                <br />
 
 
-              We are fighting for <b className="purple">justice</b> of crimes against humanity, and we will not stop until the trial of <b className="purple">Mahsa Amini</b> is held in <b className="purple">Iran</b>.
+              We are fighting for <b className="purple">justice</b> for crimes against humanity, and we will not stop until the trial of <b className="red">Ali Khamenei</b> is held in <b className="purple">Iran</b>.
               <br />
               <br />
         
